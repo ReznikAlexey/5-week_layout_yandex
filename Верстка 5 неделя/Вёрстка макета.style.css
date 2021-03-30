@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    padding: 0;
+    /*background-color: grey;*/
+}
+main {
+   text-align: center;
+}
+.content {
+    width: 1020px;
+    background-color:white;
+    margin: auto;
+}
+.content__con {
+    width: 984px;
+    background-color:#f6f5f3;
+    margin:18px auto;
+}
+
+.logo {
+    margin-left: 743px;
+    width: fit-content;
+    /*background-color: cadetblue;*/
+}
+aside {
+    display: flex;
+    /*background-color: brown;*/
+    width: 840px;
+    margin: 20px auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.krug {
+    height: 60px;
+    width: 60px;
+    background-color: #ffdb4a;
+    border-radius: 50%;
+    box-shadow: 1px 1px 3px  #ff5a00;
+}
+.krug:first-child {
+    background-image: url("Layer 66.png");
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+.krug:last-child {
+    background-image: url("Layer 63.png");
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+
+.content__con__info p{
+    font-size: 35px;
+    font-family: "Arial";
+    line-height: 1.2;
+    width: 625.712px;
+    text-align: left;
+    margin: 0 0 50px 0;
+}
+
+
+.button:hover {
+    opacity: 0.8;
+}
+
+.video {
+    vertical-align: middle;
+    margin: -25px auto -110px auto;
+}
+.heading {    
+    background-color: rgb(41, 54, 60);
+    opacity: 0.702;  
+    width: 640px;
+    height: 50px;    
+    margin: 0 auto;
+    position: relative;
+    top:50px;
+    
+}
+.heading span{
+    position: relative;
+    top:8px;
+    left:4px;
+    font-size: 29px;
+    font-family: "Arial";
+    color: white;
+}
+
+.play {
+    height: 125px;
+    width: 125px;
+    background-color: #ffdb4a;
+    border-radius: 50%;
+    box-shadow: 1px 1px 3px  #ff5a00;
+    background-image: url("Layer 65.png");
+    background-position: 48px;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 430px;
+    top:-245px;
+}
+h3 {
+    font-size: 48px;
+    font-family: "Arial";
+    font-weight: normal;
+    margin: 40px 0;
+}
+h2 {
+    font-size: 42px;
+    font-family: "Arial";
+    font-weight: normal;
+    margin: 65px 0;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    font-family: "Arial";
+    margin: 0 20px;
+    align-items: baseline;
+}
+
+.info__heading {
+    font-size: 30px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin: 0 0 20px 0;
+    overflow: hidden;
+}
+
+.block {
+    width: 220px;
+    text-align: left;
+}
+
+button {
+    background-color:#ffe23d;
+    color: #ffffff;
+    display: block;
+    border-radius: 10px;
+    border: none;
+    text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.4);
+    width: 320px;
+    height: 70px;
+    color: black;
+    font-size: 36px;
+    font-family: "Arial";
+    margin:10px auto;
+}
+button:hover {
+    background-image: linear-gradient(#ffe23d 0%,#f3c809 75%, #f5aa09 100%);
+}
